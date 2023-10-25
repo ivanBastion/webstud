@@ -1,0 +1,114 @@
+.baground{
+--text-color: #757575;
+    --heading-color: #212121;
+    --baground-color: #2F303A;
+    --aczent-color: #2196F3;
+    --miane-header-color: #fff;
+}
+
+h2 {
+    font-family: roboto;
+    text-transform: uppercase;
+}
+
+.btn_order {
+   /* font-family: roboto;*/
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+}
+
+h1 {
+    width: 696px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+a {
+    color: #212121;
+    /*font-family: Roboto;*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2196F3;
+
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+.font_web {
+    color: #2196F3;
+
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.font_stud {
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+.pages-list>.pages-item>p{
+    color: #757575;
+
+/* font-family: Roboto; */
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.42px;
+}
+.h2_top{
+    color: #212121;
+
+text-align: center;
+/* font-family: Roboto; */
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.footer-text_gr{
+    color: grey;
+
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+}
+.footer-text_adrs{
+    color: #FFF;
+/* font-family: Roboto; */
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.42px;
+}
+body{
+    font-family: ‘roboto’;
+}

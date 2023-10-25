@@ -2,115 +2,129 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBSTUD</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
-    
-    <header>
-        <a href="./index.html">WebStudio</a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Студія</a>
-                </li>
-                <li>
-                    <a href="./portfolio.html">Портфоліо</a>
-                </li>
-                <li>
-                    <a href="">Контакти</a>
-                </li>
-            </ul>
-        </nav>
-        <ul>
-            <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-        </ul>
-    </header>
-    <main>
-        <!-- hero -->
-        <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
-        </section>
-        <!-- feature -->
-        <section>
-            <ul>
-                <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </li>
-                <li>
-                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                </li>
-                <li>
-                    <h3>ПЛАНУВАННЯ</h3>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-                </li>
-                <li>
-                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                </li>
-            </ul>
-        </section>
-        <!-- work -->
-        <section>
-            <h2>Чим ми займаємося</h2>
-            <ul>
-                <li>
-                    <img src="./img/work1.jpg" alt="work1">
-                </li>
-                <li>
-                    <img src="./img/work2.jpg" alt="work2">
-                </li>
-                <li>
-                    <img src="./img/work3.jpg" alt="work3">
-                </li>
-            </ul>
-        </section>
-        <!-- team -->
-        <section>
-<h2></h2>
-<ul>
-    <li>
-        <img src="./img/tm1.png" alt="tm1">
-    </li>
-    <li>
-        <img src="./img/tm2.png" alt="tm2">
-    </li>
-    <li>
-        <img src="./img/tm3.png" alt="tm3">
-    </li>
-    <li>
-        <img src="./img/tm4.png" alt="tm4">
-    </li>
-</ul>
-        </section>
+  <!--header  -->
+  
+   
+
+  <header class="header">
+    <main class="main-list">
+
+     <a class="header-item" href="index.html">Студiя</a> 
+
+      <a class="header-item" href="portfolio.html">Портфоліо</a>
+
+     <a class="header-item" href="index.html">Контакти</a> 
+     <a class="header-item" href="index.html">info@devstudio.com</a> 
+      <a class="header-item" href="index.html">+38 096 111 11 11</a>
+
     </main>
-    <!--ydobnyi pidval nedorogo-->
-    <footer>
-        <ul>
-<li>
-<h3>WebStudio</h3>
-</li>
-<li>
-    м. Київ, пр-т Лесі Українки, 26
-</li>
-<li>
-    info@devstudio.com
-</li>
-<li>
-    +38 096 111 11 11
-</li>
+  </header>
+  <div class="header-top">
+
+    <h1>
+    Ефективні рішення для вашого бізнесу
+    </h1>
+
+    <button class="btn_order" type="button">Замовити послугу</button>
+
+
+
+
+  </div>
+  <div>
+    <!-- text list -->
+    <ul class="pages-list">
+      <li class="pages-item">
+        <h2>увага до деталей</h2>
+        <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+      </li>
+      <li class="pages-item">
+        <h2>пунктуальність</h2>
+        <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+      </li>
+      <li class="pages-item">
+        <h2>планування</h2>
+        <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+      </li>
+      <li class="pages-item">
+        <h2>сучасні технології</h2>
+        <p>>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+      </li>
     </ul>
-    </footer>
+  </div>
+  <!-- what we do -->
+  <h2 class="h2_top">Чим ми займаємося</h2>
+  <ul class="pages-list">
+    <li class="pages-item">
+      <img class="img1" src="./img/img1.png" alt="">
+    </li>
+    <li class="pages-item">
+      <img class="img1" src="./img/img2.png" alt="">
+    </li>
+    <li class="pages-item">
+      <img class="img1" src="./img/img3.png" alt="">
+    </li>
+  </ul>
+  <!-- team members -->
+  <div class="bg_tm_color">
+    <h2 class="h2_top">Наша команда</h2>
+    <ul class="pages-list">
+      <li class="pages-item">
+        <div class="tm_bg">
+          <img class="img_tm_card" src="./img/tm1.png" alt="">
+          <h2 class="head_text_tm">Ігор Дем'яненко</h2>
+          <font class="main_text_tm"></font>
+        </div>
+      </li>
+      <li class="pages-item">
+        <div class="tm_bg">
+          <img class="img_tm_card" src="./img/tm2.png" alt="">
+          <h2 class="head_text_tm">Ольга Рєпіна</h2>
+          <font class="main_text_tm"></font>
+        </div>
+      </li>
+      <li class="pages-item">
+        <div class="tm_bg">
+          <img class="img_tm_card" src="./img/tm3.png" alt="">
+          <h2 class="head_text_tm">Микола Тарасов</h2>
+          <font class="main_text_tm"></font>
+        </div>
+      </li>
+      <li class="pages-item">
+        <div class="tm_bg">
+          <img class="img_tm_card" src="./img/tm4.png" alt="">
+          <h2 class="head_text_tm">Михайло Єрмаков</h2>
+          <font class="main_text_tm"></font>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <footer>
+    <div class="div_top1">
+
+      <h3>
+
+
+        <font class="font_web">Web</font>
+        <font class="font_stud"> Studio</font>
+      </h3>
+      <p class="footer-text_adrs">м. Київ, пр-т Лесі Українки, 26</p>
+
+      <p class="footer-text_gr"> info@devstudio.com</p>
+
+
+      <p class="footer-text_gr"> +38 096 111 11 11</p>
+
+    </div>
+  </footer>
 </body>
 
 </html>
