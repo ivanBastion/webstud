@@ -111,7 +111,7 @@ letter-spacing: 0.42px;
 body{
     font-family: ‘roboto’;
 }
-.bg_tm_color_tm_bg_main_text_tm{
+.container_person_title{
     color: #757575;
 }
 .main_portfolio_absats{
@@ -135,5 +135,13 @@ color: #2196F3;
     font-weight: 700;
     line-height: normal;/* 5 */
     letter-spacing: 0.78px;
+}
+.advent_text{
+color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.42px;
 }
 /* 9 line-hight */
