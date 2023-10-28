@@ -49,9 +49,8 @@ a:hover {
     text-decoration: none;
 }
 
-.font_web {
+.footer_web {
     color: #2196F3;
-
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -60,7 +59,7 @@ a:hover {
     letter-spacing: 0.78px;
 }
 
-.font_stud {
+.footer_stud {
     color: #000;
     font-family: Raleway;
     font-size: 26px;
@@ -69,7 +68,7 @@ a:hover {
     line-height: normal;/* 5 */
     letter-spacing: 0.78px;
 }
-.pages-list>.pages-item>p{
+.pages_list>.pages_item>p{
     color: #757575;
 
 /* font-family: Roboto; */
@@ -79,7 +78,7 @@ font-weight: 400;
 line-height: 24px;/* 6 */ 
 letter-spacing: 0.42px;
 }
-.h2_top{
+.h2_what_we_do{
     color: #212121;
 
 text-align: center;
@@ -90,7 +89,7 @@ font-weight: 700;
 line-height: normal;/* 7 */
 letter-spacing: 1.08px;
 }
-.footer-text_gr{
+.footer_text_gr{
     color: grey;
 
     /* font-family: Roboto; */
@@ -100,7 +99,7 @@ letter-spacing: 1.08px;
     line-height: 24px;/*8  */ 
     letter-spacing: 0.42px;
 }
-.footer-text_adrs{
+.footer_text_adrs{
     color: #FFF;
 /* font-family: Roboto; */
 font-size: 14px;
@@ -111,5 +110,30 @@ letter-spacing: 0.42px;
 }
 body{
     font-family: ‘roboto’;
+}
+.bg_tm_color_tm_bg_main_text_tm{
+    color: #757575;
+}
+.main_portfolio_absats{
+    color: #757575;
+}
+.header_web{
+color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;/* 4 */
+    letter-spacing: 0.78px;
+
+}
+.header_stud{
+ color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;/* 5 */
+    letter-spacing: 0.78px;
 }
 /* 9 line-hight */
