@@ -152,10 +152,25 @@ body {
 
 .container_person_title {
     color: #757575;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
 }
 
 .main_portfolio_absats {
     color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.48px;
 }
 
 .header_web {
@@ -191,3 +206,13 @@ body {
 }
 
 /* 9 line-hight */
+.main_portfolio_title {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 200% */
+    letter-spacing: 1.08px;
+}
