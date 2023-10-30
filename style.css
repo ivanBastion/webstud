@@ -1,5 +1,5 @@
-.baground{
---text-color: #757575;
+.baground {
+    --text-color: #757575;
     --heading-color: #212121;
     --baground-color: #2F303A;
     --aczent-color: #2196F3;
@@ -8,13 +8,35 @@
 
 h2 {
     font-family: roboto;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+h3 {
+    color: #212121;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
     text-transform: uppercase;
+
 }
 
 .btn_order {
-   /* font-family: roboto;*/
+    color: #fff;
+    /* font-family: roboto;*/
     font-size: 16px;
-    line-height: 30px;/* 1 */
+    line-height: 30px;
+    /* 1 */
     letter-spacing: 0.96px;
 }
 
@@ -24,6 +46,9 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    color: #fff;
+    font-family: roboto;
+    text-transform: uppercase;
 }
 
 a {
@@ -32,7 +57,8 @@ a {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;/* 2 */
+    line-height: normal;
+    /* 2 */
     letter-spacing: 0.28px;
     text-decoration: none;
 }
@@ -44,7 +70,8 @@ a:hover {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;/* 3 */
+    line-height: normal;
+    /* 3 */
     letter-spacing: 0.28px;
     text-decoration: none;
 }
@@ -55,7 +82,8 @@ a:hover {
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;/* 4 */
+    line-height: normal;
+    /* 4 */
     letter-spacing: 0.78px;
 }
 
@@ -65,83 +93,101 @@ a:hover {
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;/* 5 */
+    line-height: normal;
+    /* 5 */
     letter-spacing: 0.78px;
 }
-.pages_list>.pages_item>p{
+
+.pages_list>.pages_item>p {
     color: #757575;
 
-/* font-family: Roboto; */
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;/* 6 */ 
-letter-spacing: 0.42px;
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 6 */
+    letter-spacing: 0.42px;
 }
-.h2_what_we_do{
+
+.h2_what_we_do {
     color: #212121;
 
-text-align: center;
-/* font-family: Roboto; */
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;/* 7 */
-letter-spacing: 1.08px;
+    text-align: center;
+    /* font-family: Roboto; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* 7 */
+    letter-spacing: 1.08px;
 }
-.footer_text_gr{
+
+.footer_text_gr {
     color: grey;
 
     /* font-family: Roboto; */
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;/*8  */ 
+    line-height: 24px;
+    /*8  */
     letter-spacing: 0.42px;
 }
-.footer_text_adrs{
+
+.footer_text_adrs {
     color: #FFF;
-/* font-family: Roboto; */
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;/* 9 */ 
-letter-spacing: 0.42px;
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 9 */
+    letter-spacing: 0.42px;
 }
-body{
+
+body {
     font-family: ‘roboto’;
 }
-.container_person_title{
+
+.container_person_title {
     color: #757575;
 }
-.main_portfolio_absats{
+
+.main_portfolio_absats {
     color: #757575;
 }
-.header_web{
-color: #2196F3;
+
+.header_web {
+    color: #2196F3;
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;/* 4 */
+    line-height: normal;
+    /* 4 */
     letter-spacing: 0.78px;
 
 }
-.header_stud{
- color: #000;
+
+.header_stud {
+    color: #000;
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;/* 5 */
+    line-height: normal;
+    /* 5 */
     letter-spacing: 0.78px;
 }
-.advent_text{
-color: #757575;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px; 
-letter-spacing: 0.42px;
+
+.advent_text {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
 }
+
 /* 9 line-hight */
