@@ -125,13 +125,12 @@ a:hover {
 }
 
 .footer_text_adrs {
-    color: #FFF;
-    /* font-family: Roboto; */
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    /* 9 */
+    line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
 }
 
@@ -223,4 +222,13 @@ line-height: 26px; /* 162.5% */
 letter-spacing: 0.48px;
 border-radius: 4px;
 background: #F5F4FA;
+}
+.header_item{
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 }
