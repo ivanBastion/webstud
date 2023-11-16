@@ -30,11 +30,6 @@ h3 {
 }
 
 h1 {
-    width: 696px;
-    height: 120px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
     color: #fff;
     font-family: roboto;
     text-transform: uppercase;
@@ -65,7 +60,7 @@ a:hover {
     text-decoration: none;
 }
 
-.footer_web {
+.footer-web {
     color: #2196F3;
     font-family: Raleway;
     font-size: 26px;
@@ -76,7 +71,28 @@ a:hover {
     letter-spacing: 0.78px;
 }
 
-.footer_stud {
+.footer-stud {
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* 5 */
+    letter-spacing: 0.78px;
+}
+.header-web {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* 4 */
+    letter-spacing: 0.78px;
+}
+
+.header-stud {
     color: #000;
     font-family: Raleway;
     font-size: 26px;
@@ -87,7 +103,7 @@ a:hover {
     letter-spacing: 0.78px;
 }
 
-.pages_list>.pages_item>p {
+.pages-list>.pages-item>p {
     color: #757575;
 
     /* font-family: Roboto; */
@@ -99,7 +115,7 @@ a:hover {
     letter-spacing: 0.42px;
 }
 
-.h2_what_we_do {
+.h2-what-we-do {
     color: #212121;
 
     text-align: center;
@@ -112,7 +128,7 @@ a:hover {
     letter-spacing: 1.08px;
 }
 
-.footer_text_gr {
+.footer-text-gr {
     color: grey;
 
     /* font-family: Roboto; */
@@ -124,7 +140,7 @@ a:hover {
     letter-spacing: 0.42px;
 }
 
-.footer_text_adrs {
+.footer-text-adrs {
     color: rgba(255, 255, 255, 0.60);
     font-family: Roboto;
     font-size: 14px;
@@ -138,7 +154,7 @@ body {
     font-family: ‘roboto’;
 }
 
-.container_person_title {
+.container-person-title {
     color: #757575;
     font-family: Roboto;
     font-size: 16px;
@@ -148,7 +164,7 @@ body {
     letter-spacing: 0.48px;
 }
 
-.main_portfolio_absats {
+.main-portfolio-absats {
     color: #757575;
     font-family: Roboto;
     font-size: 16px;
@@ -159,30 +175,7 @@ body {
     letter-spacing: 0.48px;
 }
 
-.header_web {
-    color: #2196F3;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    /* 4 */
-    letter-spacing: 0.78px;
-
-}
-
-.header_stud {
-    color: #000;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    /* 5 */
-    letter-spacing: 0.78px;
-}
-
-.advent_text {
+.advent-text {
     color: #757575;
     font-family: Roboto;
     font-size: 14px;
@@ -192,25 +185,26 @@ body {
 }
 
 /* 9 line-hight */
-.main_portfolio_title {
+.main-portfolio-title {
     color: #212121;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 36px;
-    /* 200% */
     letter-spacing: 1.08px;
 }
-.container_person_name{
+.container-person-name{
     color: #212121;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-letter-spacing: 0.48px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
 
 }
-.main_button{
+.main-button{
     color: #212121;
 
 text-align: center;
@@ -223,12 +217,12 @@ letter-spacing: 0.48px;
 border-radius: 4px;
 background: #F5F4FA;
 }
-.header_item{
+.header-item{
     color: #212121;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
