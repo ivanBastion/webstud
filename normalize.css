@@ -1,19 +1,15 @@
- 
-  button,
-  input,
-  optgroup,
-  select,
-  textarea,
-  ul,
-  li,
-  h1,
-  h2,
-  h3{
-    font-family: inherit;
-    font-size: 100%; 
-    line-height: 1.15; 
-    margin: 0; 
+a,
+section,
+h4,
+button,
+input,
+select,
+ul,
+li,
+h1,
+h2,
+h3 {
+
+    margin: 0;
     padding: 0px;
-  }
-  
-  
+}
