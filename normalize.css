@@ -8,8 +8,33 @@ ul,
 li,
 h1,
 h2,
-h3 {
+h3,
+p{
 
     margin: 0;
     padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul{
+    display: flex;
 }
