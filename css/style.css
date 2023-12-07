@@ -2,9 +2,44 @@
     width: 1200px;
 margin: auto; 
 padding: 0.15px;
+display: flex;
+flex-direction: column;
+
+}
+.header{
+    display: flex;
+}
+.about-list{
+    display: flex;
+}
+.about-item{
+    display: inline-flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap; 
+}
+.pages-list_advent{
+    display: flex;
+}
+.pages-item_advent{
+    display: inline-flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap; 
+}
+.container-list{
+    display: flex;
+
+}
+.container-item{
+    display: inline-flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;   
 }
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Roboto;
+justify-content: space-around;
+align-self: center;
 }
 
 :root {
@@ -233,11 +268,14 @@ a:hover {
 
 .header-item {
     color: #212121;
-
+    display: inline-flex;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+   
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
 }
 
 .hero-title {
@@ -271,6 +309,9 @@ a:hover {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
 }
 
 .hero-title {
